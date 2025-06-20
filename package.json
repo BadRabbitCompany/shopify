@@ -1,0 +1,18 @@
+{
+  "name": "shopify-contifico-integration-prod",
+  "version": "1.0.1",
+  "description": "Webhook en producción que recibe órdenes de Shopify y las envía a Contifico vía API",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^1.6.2",
+    "express": "^4.18.2"
+  }
+}
