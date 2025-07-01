@@ -15,14 +15,12 @@ app.post('/webhook', async (req, res) => {
   const order = req.body;
 
   const venta = {
-    cliente: '9999999999',
     observaciones: `Orden Shopify #${order.name}`,
     tipo_comprobante: 'NOTA DE VENTA',
     fecha_emision: new Date().toISOString().split('T')[0],
     almacen: 'bodega general',
     detalles: order.line_items.map(item => ({
-      codigo_principal: '094234852',
-      cantidad: item.quantity,
+          cantidad: item.quantity,
       precio_unitario: parseFloat(item.price),
       descuento: 0
     })),
