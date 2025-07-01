@@ -1,7 +1,7 @@
 {
-  "name": "shopify-contifico-documento-demo",
+  "name": "contifico-token-tester",
   "version": "1.0.0",
-  "description": "Webhook que recibe \u00f3rdenes de Shopify y las env\u00eda como documentos a la API demo de Contifico",
+  "description": "Test simple para validar token de Contifico usando GET /clientes/",
   "main": "index.js",
   "type": "module",
   "scripts": {
