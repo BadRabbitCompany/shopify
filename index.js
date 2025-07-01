@@ -6,7 +6,7 @@ app.use(express.json());
 
 // Credenciales de prueba (demo)
 const CONTIFICO_TOKEN = "bd982a65-3807-4e73-b7bc-b42f621721c9";
-const CONTIFICO_API = "https://api.contifico.com/sistema/api/v1/registro/transaccion/ID/";
+const CONTIFICO_API = "https://app.contifico.com/sistema/api/v1";
 
 // Generador de número de documento simulado
 function generateDocNumber(order) {
